@@ -6,9 +6,10 @@ import json
 import time
 
 CONFIG_FILE = "audio_switcher_config.json"
+APP_VERSION = "1.0.0"
 
 # ========================================================
-# 🌍 다국어 사전 (메뉴 복귀 메시지 추가됨)
+# 🌍 다국어 사전
 # ========================================================
 LANG = {
     "ko": {
@@ -26,7 +27,7 @@ LANG = {
         "switching": "🔄 변경 시도: ",
         "success": "✅ 명령 전송 완료! (소리를 확인하세요)",
         "fail": "❌ 모든 시도가 실패했습니다.",
-        "return_menu": "엔터를 누르면 메뉴로 돌아갑니다...", # 추가됨
+        "return_menu": "엔터를 누르면 메뉴로 돌아갑니다...",
         "set_saved": "✅ 설정이 저장되었습니다! 메뉴를 새로고침합니다."
     },
     "en": {
@@ -44,7 +45,7 @@ LANG = {
         "switching": "🔄 Switching to: ",
         "success": "✅ Command sent! (Check your audio)",
         "fail": "❌ All attempts failed.",
-        "return_menu": "Press Enter to return to menu...", # Added
+        "return_menu": "Press Enter to return to menu...",
         "set_saved": "✅ Settings saved! Reloading menu."
     }
 }
@@ -154,7 +155,7 @@ def main():
 
         os.system('cls' if os.name == 'nt' else 'clear')
         print("\n" + "="*40)
-        print(f"   {txt['title']}")
+        print(f"   {txt['title']} (v{APP_VERSION})") 
         print("="*40)
 
         # 1. 장치 스캔
