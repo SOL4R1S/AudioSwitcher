@@ -9,7 +9,7 @@ Nircmd를 활용하여 윈도우의 오디오 출력 장치를 빠르고 간편�
 - **설정 자동 저장:** Nircmd 경로와 언어 설정이 `json` 파일로 저장되어 다음 실행 시 편리합니다.
 
 ## 다운로드 및 실행 (For Users)
-[Download Page]https://github.com/SOL4R1S/AudioSwitcher/releases/tag/v1.0.0 가셔서 AudioSwitcher.exe 다운받으시면됩니다.
+[Download Page](https://github.com/SOL4R1S/AudioSwitcher/releases/tag/v1.0.0) 에서 AudioSwitcher.exe 다운받으시면됩니다.
 
 ### 필수 준비물
 이 프로그램은 소리 설정을 변경하기 위해 **Nircmd**가 필요합니다.
